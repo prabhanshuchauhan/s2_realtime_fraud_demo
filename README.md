@@ -6,9 +6,12 @@ A real-time fraud detection demo using SingleStore, Kafka, and Next.js. This pro
 
 ## Why This Project?
 
-- **Real-time analytics:** See fraud detection as it happens.
-- **Modern stack:** Uses serverless, cloud-native, and open source tools.
-- **Educational:** Great for learning about streaming, analytics, and cloud deployment.
+- **Showcase SingleStore's real-time analytics:** Demonstrates how SingleStore can power instant fraud detection and analytics on streaming data, leveraging its high-performance, distributed SQL engine.
+- **End-to-end streaming with SingleStore Pipelines:** Ingests data directly from Kafka into SingleStore using native pipelines—no external ETL required.
+- **Multi-model and geospatial capabilities:** Uses SingleStore's support for relational, time series, and geospatial data to detect and analyze fraud patterns.
+- **Automated analytics with Scheduled Jobs:** Highlights how SingleStore's built-in scheduled jobs can automate complex analytics and fraud detection logic, all within the database.
+- **Cloud-native and developer-friendly:** Built to run on SingleStore Cloud, with easy integration for modern app stacks (Next.js, Python, Kafka, etc.).
+- **Educational and extensible:** Serves as a reference for building real-time, cloud-native analytics solutions with SingleStore at the core.
 
 ## Architecture
 
