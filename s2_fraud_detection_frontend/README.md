@@ -28,6 +28,8 @@ SINGLESTORE_CERT=your-ssl-cert-contents
 
 To connect securely to SingleStore Cloud, you need to provide the CA certificate. This project uses an environment variable (`SINGLESTORE_CERT`) to store the certificate contents, which is compatible with Vercel and other serverless platforms.
 
+To learn more about using singlestore with Node.js using SSL, check out [Connect with Node.js using SSL](https://docs.singlestore.com/cloud/developer-resources/connect-with-application-development-tools/connect-with-node-js/connect-with-node-js-using-ssl/).
+
 **How to set `SINGLESTORE_CERT`:**
 1. Download your CA certificate from the SingleStore Cloud portal (usually a `.pem` file).
 2. Convert the file contents to a single line with `\n` for newlines. For example:
